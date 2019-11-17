@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@mobileia/notification": [
+        "dist/mobileia/notification"
+      ],
+      "@mobileia/notification/*": [
+        "dist/mobileia/notification/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
