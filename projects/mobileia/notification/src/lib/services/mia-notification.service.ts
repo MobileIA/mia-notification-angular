@@ -36,4 +36,8 @@ export class MiaNotificationService extends MiaAuthHttpService {
   fetchMore(notId: number): Observable<ApiResponse<[MiaNotification]>> {
     return this.postAuthArray(this.baseUrl + 'notification/more', { id: notId });
   }
+
+  read(notId: number): Observable<ApiResponse<true>> {
+    return this.postAuthObject(this.baseUrl + 'notification/read', { id: notId });
+  }
 }
