@@ -1,8 +1,10 @@
 {
-  "name": "@mobileia/notification",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
-  }
+    "name": "@mobileia/notification",
+    "version": "8.0.1",
+    "peerDependencies": {
+        "@angular/common": "^8.2.14",
+        "@angular/core": "^8.2.14",
+        "@mobileia/authentication": "^8.0.2",
+        "@mobileia/core": "^8.0.1"
+    }
 }
